@@ -4,8 +4,7 @@ If you are not familiar with Eclipse plugin development, here are the steps you 
 
 SET UP JAVA
 1. Download openjdk from
-https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_windows-
-x64_bin.zip and extract the archive
+https://download.java.net/java/GA/jdk11/9/GPL/openjdk-11.0.2_windows-x64_bin.zip and extract the archive
 2. Create an environment variable JAVA_HOME and point it to the directory
 where you extracted openjdk
 3. Add %JAVA_HOME%\bin to your PATH environment variable
