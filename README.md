@@ -12,7 +12,7 @@ where you extracted openjdk
 BUILD QtWinMigrate
 1. Clone https://github.com/qtproject/qt-solutions
 2. cd qtwinmigrate
-3. configure -library (this will built the required dll)
+3. configure -library (this will build the required dll)
 4. Run qmake and nmake
 
 BUILD PLUGIN's NATIVE CODE
