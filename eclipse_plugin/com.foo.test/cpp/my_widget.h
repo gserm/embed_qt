@@ -39,6 +39,7 @@ public:
 
 protected:
 
+	// just paint the background black so that it can be seen easily withing the Eclipse window
 	void paintEvent(QPaintEvent* event)
 	{
 		QPainter p(this);
@@ -50,6 +51,7 @@ protected:
 		Dialog d(this);
 		int r = d.exec();
 
+		// Using the below works as expected
 //		auto* d = new Dialog(this);
 //		d->setModal(false);
 //		d->setAttribute(Qt::WA_DeleteOnClose);
