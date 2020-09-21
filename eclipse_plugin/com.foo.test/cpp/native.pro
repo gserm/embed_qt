@@ -10,10 +10,10 @@ INCLUDEPATH += $$(JAVA_HOME)/include \
 
 CONFIG(migrate) {
 	
-	INCLUDEPATH += D:/development/qtwinmigrate/5/src
 	DEFINES += QT_QTWINMIGRATE_IMPORT QTWINMIGRATE
 	
 	# change these paths accordingly
+	INCLUDEPATH += D:/development/qtwinmigrate/5/src
 	CONFIG(debug, debug|release):LIBS += D:/development/qtwinmigrate/5/lib/QtSolutions_MFCMigrationFramework-headd.lib
 	CONFIG(release, debug|release):LIBS += D:/development/qtwinmigrate/5/lib/QtSolutions_MFCMigrationFramework-head.lib
 }
